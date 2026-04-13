@@ -189,11 +189,11 @@ import mongoose from "mongoose";
 
 // establish connection
 const uri =
-  "mongodb+srv://ibrahim:ibrahim123@cluster0.fkscpw7.mongodb.net/TestDB";
+  "mongodb+srv://ibrahim:ibrahim123@cluster0.fkscpw7.mongodb.net/labDB";
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log("✅ Connected to MongoDB"))
-  .catch((err) => console.error("❌ Connection error:", err));
+  .then(() => console.log(" Connected to MongoDB"))
+  .catch((err) => console.error(" Connection error:", err));
 
 // define schema
 const studentSchema = new mongoose.Schema({
