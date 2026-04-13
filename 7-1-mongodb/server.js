@@ -188,8 +188,7 @@
 import mongoose from "mongoose";
 
 // establish connection
-const uri =
-  "mongodb+srv://ibrahim:ibrahim123@cluster0.fkscpw7.mongodb.net/labDB";
+const uri = "mongodb+srv://ibrahim:ibrahim123@cluster0.fkscpw7.mongodb.net/";
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log(" Connected to MongoDB"))
